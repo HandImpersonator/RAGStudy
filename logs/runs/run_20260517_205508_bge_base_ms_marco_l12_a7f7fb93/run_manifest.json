@@ -1,0 +1,155 @@
+{
+  "schema_version": "2.0",
+  "run_id": "run_20260517_205508_bge_base_ms_marco_l12_a7f7fb93",
+  "created_at": "2026-05-17T20:55:08",
+  "updated_at": "2026-05-22T04:15:20",
+  "dataset": "triviaqa",
+  "mode": "real",
+  "model_label": "llama3_8b__bge-base__ms-marco-L12",
+  "model_detected": "llama3:8b",
+  "model_size_gb": "4.3",
+  "model_size_category": "medium",
+  "num_configs_expected": 17,
+  "num_configs_completed": 17,
+  "num_queries_per_config": 10,
+  "status": "completed",
+  "experiments": {
+    "no_rag": {
+      "config_option": 1,
+      "path": "experiments/no_rag.json",
+      "status": "completed",
+      "evaluation_status": "completed",
+      "elapsed_seconds": 8.328,
+      "elapsed_human": "8s"
+    },
+    "baseline_k": {
+      "config_option": 2,
+      "path": "experiments/baseline_k.json",
+      "status": "completed",
+      "evaluation_status": "completed",
+      "elapsed_seconds": 14.061,
+      "elapsed_human": "14s"
+    },
+    "baseline_s": {
+      "config_option": 3,
+      "path": "experiments/baseline_s.json",
+      "status": "completed",
+      "evaluation_status": "completed",
+      "elapsed_seconds": 13.523,
+      "elapsed_human": "14s"
+    },
+    "baseline_k_rr": {
+      "config_option": 4,
+      "path": "experiments/baseline_k_rr.json",
+      "status": "completed",
+      "evaluation_status": "completed",
+      "elapsed_seconds": 14.638,
+      "elapsed_human": "15s"
+    },
+    "baseline_s_rr": {
+      "config_option": 5,
+      "path": "experiments/baseline_s_rr.json",
+      "status": "completed",
+      "evaluation_status": "completed",
+      "elapsed_seconds": 14.065,
+      "elapsed_human": "14s"
+    },
+    "baseline_k_grounded": {
+      "config_option": 6,
+      "path": "experiments/baseline_k_grounded.json",
+      "status": "completed",
+      "evaluation_status": "completed",
+      "elapsed_seconds": 13.859,
+      "elapsed_human": "14s"
+    },
+    "baseline_s_grounded": {
+      "config_option": 7,
+      "path": "experiments/baseline_s_grounded.json",
+      "status": "completed",
+      "evaluation_status": "completed",
+      "elapsed_seconds": 13.863,
+      "elapsed_human": "14s"
+    },
+    "baseline_k_rr_grounded": {
+      "config_option": 8,
+      "path": "experiments/baseline_k_rr_grounded.json",
+      "status": "completed",
+      "evaluation_status": "completed",
+      "elapsed_seconds": 13.222,
+      "elapsed_human": "13s"
+    },
+    "baseline_s_rr_grounded": {
+      "config_option": 9,
+      "path": "experiments/baseline_s_rr_grounded.json",
+      "status": "completed",
+      "evaluation_status": "completed",
+      "elapsed_seconds": 14.102,
+      "elapsed_human": "14s"
+    },
+    "optimized_k": {
+      "config_option": 10,
+      "path": "experiments/optimized_k.json",
+      "status": "completed",
+      "evaluation_status": "completed",
+      "elapsed_seconds": 14.674,
+      "elapsed_human": "15s"
+    },
+    "optimized_s": {
+      "config_option": 11,
+      "path": "experiments/optimized_s.json",
+      "status": "completed",
+      "evaluation_status": "completed",
+      "elapsed_seconds": 13.149,
+      "elapsed_human": "13s"
+    },
+    "optimized_k_rr": {
+      "config_option": 12,
+      "path": "experiments/optimized_k_rr.json",
+      "status": "completed",
+      "evaluation_status": "completed",
+      "elapsed_seconds": 13.901,
+      "elapsed_human": "14s"
+    },
+    "optimized_s_rr": {
+      "config_option": 13,
+      "path": "experiments/optimized_s_rr.json",
+      "status": "completed",
+      "evaluation_status": "completed",
+      "elapsed_seconds": 12.592,
+      "elapsed_human": "13s"
+    },
+    "optimized_k_grounded": {
+      "config_option": 14,
+      "path": "experiments/optimized_k_grounded.json",
+      "status": "completed",
+      "evaluation_status": "completed",
+      "elapsed_seconds": 11.208,
+      "elapsed_human": "11s"
+    },
+    "optimized_s_grounded": {
+      "config_option": 15,
+      "path": "experiments/optimized_s_grounded.json",
+      "status": "completed",
+      "evaluation_status": "completed",
+      "elapsed_seconds": 15.183,
+      "elapsed_human": "15s"
+    },
+    "optimized_k_rr_grounded": {
+      "config_option": 16,
+      "path": "experiments/optimized_k_rr_grounded.json",
+      "status": "completed",
+      "evaluation_status": "completed",
+      "elapsed_seconds": 12.589,
+      "elapsed_human": "13s"
+    },
+    "optimized_s_rr_grounded": {
+      "config_option": 17,
+      "path": "experiments/optimized_s_rr_grounded.json",
+      "status": "completed",
+      "evaluation_status": "completed",
+      "elapsed_seconds": 15.684,
+      "elapsed_human": "16s"
+    }
+  },
+  "summary_path": "summaries/experiment_summary.json"
+}

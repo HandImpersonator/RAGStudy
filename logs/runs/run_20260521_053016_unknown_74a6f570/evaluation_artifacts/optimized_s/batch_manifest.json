@@ -1,0 +1,26 @@
+{
+  "batch_id": "batch_6a0eb818c7548190984d1960841507a8",
+  "config_name": "optimized_s",
+  "run_id": "run_20260521_053016_unknown_74a6f570",
+  "submitted_at": "2026-05-21T07:45:29",
+  "last_polled_at": null,
+  "batch_status": "validating",
+  "completed_at": null,
+  "num_items": 10,
+  "input_file_id": "file-RGiwBQd8KGGjMrvUmQ2eKK",
+  "output_file_id": null,
+  "custom_ids": [
+    "run_20260521_053016_unknown_74a6f570::optimized_s::0210",
+    "run_20260521_053016_unknown_74a6f570::optimized_s::0211",
+    "run_20260521_053016_unknown_74a6f570::optimized_s::0212",
+    "run_20260521_053016_unknown_74a6f570::optimized_s::0213",
+    "run_20260521_053016_unknown_74a6f570::optimized_s::0214",
+    "run_20260521_053016_unknown_74a6f570::optimized_s::0215",
+    "run_20260521_053016_unknown_74a6f570::optimized_s::0216",
+    "run_20260521_053016_unknown_74a6f570::optimized_s::0217",
+    "run_20260521_053016_unknown_74a6f570::optimized_s::0218",
+    "run_20260521_053016_unknown_74a6f570::optimized_s::0219"
+  ],
+  "items_processed_ok": 0,
+  "items_processed_err": 0
+}

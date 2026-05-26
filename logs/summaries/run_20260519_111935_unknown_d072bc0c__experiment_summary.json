@@ -1,0 +1,31 @@
+{
+  "schema_version": "2.0",
+  "report_type": "experiment_summary",
+  "run_id": "run_20260519_111935_unknown_d072bc0c",
+  "timestamp_start": "2026-05-19T18:53:19",
+  "timestamp_end": "2026-05-19T18:54:17",
+  "total_elapsed_seconds": 0,
+  "total_elapsed_human": "0s",
+  "mode": "real",
+  "dataset": "triviaqa",
+  "model_label": "unknown",
+  "model_detected": "unknown",
+  "model_size_gb": "?",
+  "model_size_category": "unknown",
+  "evaluation": {
+    "status": "completed",
+    "method": null,
+    "model": null,
+    "scores_scale": "0_to_100",
+    "num_samples_total": 0,
+    "num_samples_evaluated": 0,
+    "num_samples_pending": 0,
+    "eval_completion_rate": 0.0
+  },
+  "experiments": {},
+  "experiment_family": "main_experiment",
+  "experiment_stage": "",
+  "combo_alias": "",
+  "combo_retrieval_model": "",
+  "combo_reranker_model": ""
+}

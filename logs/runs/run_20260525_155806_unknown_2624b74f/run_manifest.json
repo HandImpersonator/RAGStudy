@@ -1,0 +1,157 @@
+{
+  "schema_version": "2.0",
+  "run_id": "run_20260525_155806_unknown_2624b74f",
+  "created_at": "2026-05-25T15:58:54",
+  "updated_at": "2026-05-25T16:14:11",
+  "dataset": "hotpotqa",
+  "mode": "real",
+  "run_type": "model_selection",
+  "experiment_family": "model_selection",
+  "model_label": "llama3:8b",
+  "model_detected": "llama3:8b",
+  "model_size_gb": "4.3",
+  "model_size_category": "medium",
+  "num_configs_expected": 17,
+  "num_configs_completed": 17,
+  "num_queries_per_config": 25,
+  "status": "completed",
+  "experiments": {
+    "no_rag": {
+      "config_option": 1,
+      "path": "experiments/no_rag.json",
+      "status": "completed",
+      "evaluation_status": "completed",
+      "elapsed_seconds": 20.756,
+      "elapsed_human": "21s"
+    },
+    "baseline_k": {
+      "config_option": 2,
+      "path": "experiments/baseline_k.json",
+      "status": "completed",
+      "evaluation_status": "completed",
+      "elapsed_seconds": 28.55,
+      "elapsed_human": "29s"
+    },
+    "baseline_s": {
+      "config_option": 3,
+      "path": "experiments/baseline_s.json",
+      "status": "completed",
+      "evaluation_status": "completed",
+      "elapsed_seconds": 28.4,
+      "elapsed_human": "28s"
+    },
+    "baseline_k_rr": {
+      "config_option": 4,
+      "path": "experiments/baseline_k_rr.json",
+      "status": "completed",
+      "evaluation_status": "completed",
+      "elapsed_seconds": 28.721,
+      "elapsed_human": "29s"
+    },
+    "baseline_s_rr": {
+      "config_option": 5,
+      "path": "experiments/baseline_s_rr.json",
+      "status": "completed",
+      "evaluation_status": "completed",
+      "elapsed_seconds": 28.775,
+      "elapsed_human": "29s"
+    },
+    "baseline_k_grounded": {
+      "config_option": 6,
+      "path": "experiments/baseline_k_grounded.json",
+      "status": "completed",
+      "evaluation_status": "completed",
+      "elapsed_seconds": 31.552,
+      "elapsed_human": "32s"
+    },
+    "baseline_s_grounded": {
+      "config_option": 7,
+      "path": "experiments/baseline_s_grounded.json",
+      "status": "completed",
+      "evaluation_status": "completed",
+      "elapsed_seconds": 25.722,
+      "elapsed_human": "26s"
+    },
+    "baseline_k_rr_grounded": {
+      "config_option": 8,
+      "path": "experiments/baseline_k_rr_grounded.json",
+      "status": "completed",
+      "evaluation_status": "completed",
+      "elapsed_seconds": 33.505,
+      "elapsed_human": "34s"
+    },
+    "baseline_s_rr_grounded": {
+      "config_option": 9,
+      "path": "experiments/baseline_s_rr_grounded.json",
+      "status": "completed",
+      "evaluation_status": "completed",
+      "elapsed_seconds": 32.867,
+      "elapsed_human": "33s"
+    },
+    "optimized_k": {
+      "config_option": 10,
+      "path": "experiments/optimized_k.json",
+      "status": "completed",
+      "evaluation_status": "completed",
+      "elapsed_seconds": 28.494,
+      "elapsed_human": "28s"
+    },
+    "optimized_s": {
+      "config_option": 11,
+      "path": "experiments/optimized_s.json",
+      "status": "completed",
+      "evaluation_status": "completed",
+      "elapsed_seconds": 27.835,
+      "elapsed_human": "28s"
+    },
+    "optimized_k_rr": {
+      "config_option": 12,
+      "path": "experiments/optimized_k_rr.json",
+      "status": "completed",
+      "evaluation_status": "completed",
+      "elapsed_seconds": 27.932,
+      "elapsed_human": "28s"
+    },
+    "optimized_s_rr": {
+      "config_option": 13,
+      "path": "experiments/optimized_s_rr.json",
+      "status": "completed",
+      "evaluation_status": "completed",
+      "elapsed_seconds": 29.924,
+      "elapsed_human": "30s"
+    },
+    "optimized_k_grounded": {
+      "config_option": 14,
+      "path": "experiments/optimized_k_grounded.json",
+      "status": "completed",
+      "evaluation_status": "completed",
+      "elapsed_seconds": 30.598,
+      "elapsed_human": "31s"
+    },
+    "optimized_s_grounded": {
+      "config_option": 15,
+      "path": "experiments/optimized_s_grounded.json",
+      "status": "completed",
+      "evaluation_status": "completed",
+      "elapsed_seconds": 28.655,
+      "elapsed_human": "29s"
+    },
+    "optimized_k_rr_grounded": {
+      "config_option": 16,
+      "path": "experiments/optimized_k_rr_grounded.json",
+      "status": "completed",
+      "evaluation_status": "completed",
+      "elapsed_seconds": 32.837,
+      "elapsed_human": "33s"
+    },
+    "optimized_s_rr_grounded": {
+      "config_option": 17,
+      "path": "experiments/optimized_s_rr_grounded.json",
+      "status": "completed",
+      "evaluation_status": "completed",
+      "elapsed_seconds": 31.719,
+      "elapsed_human": "32s"
+    }
+  },
+  "summary_path": "summaries/experiment_summary.json"
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": "2.0",
+  "report_type": "experiment_summary",
+  "run_id": "bak",
+  "timestamp_start": "2026-05-22T04:15:19",
+  "timestamp_end": "2026-05-22T04:15:19",
+  "total_elapsed_seconds": 0,
+  "total_elapsed_human": "0s",
+  "mode": "",
+  "dataset": "",
+  "model_label": "",
+  "model_detected": "",
+  "model_size_gb": "",
+  "model_size_category": "",
+  "evaluation": {
+    "status": "completed",
+    "method": null,
+    "model": null,
+    "scores_scale": "0_to_100",
+    "num_samples_total": 0,
+    "num_samples_evaluated": 0,
+    "num_samples_pending": 0,
+    "eval_completion_rate": 0.0
+  },
+  "experiments": {},
+  "experiment_family": "main_experiment",
+  "experiment_stage": "",
+  "combo_alias": "",
+  "combo_retrieval_model": "",
+  "combo_reranker_model": ""
+}

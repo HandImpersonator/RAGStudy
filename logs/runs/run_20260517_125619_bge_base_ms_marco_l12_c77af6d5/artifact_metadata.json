@@ -1,0 +1,9 @@
+{
+  "experiment_family": "combo_sweep",
+  "experiment_stage": "step_1_combo_selection",
+  "combo_alias": "bge-base__ms-marco-L12",
+  "retrieval_model": "BAAI/bge-base-en-v1.5",
+  "reranker_model": "cross-encoder/ms-marco-MiniLM-L-12-v2",
+  "dataset": "triviaqa",
+  "llm_label": "llama3.2_latest"
+}

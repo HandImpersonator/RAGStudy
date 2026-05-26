@@ -1,0 +1,2 @@
+dataset,llm,mean_quality_score,mean_overall,mean_faithfulness,mean_correctness,mean_answer_relevance,mean_latency_ms,std_across_combos,num_combos,top_rank_count,bottom_rank_count,rank
+triviaqa,mistral:7b,88.19010416666667,82.91250000000001,87.73958333333333,80.33333333333333,98.0625,1490.5505166666665,2.0152885835747694,6,1,1,1

@@ -1,0 +1,77 @@
+{
+  "schema_version": "2.0",
+  "run_id": "run_20260520_225042_unknown_1e8f339e",
+  "created_at": "2026-05-20T22:51:20",
+  "updated_at": "2026-05-22T04:15:30",
+  "dataset": "triviaqa",
+  "mode": "real",
+  "run_type": "main_experiment",
+  "experiment_family": "main_experiment",
+  "model_label": "llama3:8b",
+  "model_detected": "llama3:8b",
+  "model_size_gb": "4.3",
+  "model_size_category": "medium",
+  "num_configs_expected": 17,
+  "num_configs_completed": 7,
+  "num_queries_per_config": 625,
+  "status": "completed",
+  "experiments": {
+    "no_rag": {
+      "config_option": 1,
+      "path": "experiments/no_rag.json",
+      "status": "completed",
+      "evaluation_status": "completed",
+      "elapsed_seconds": 249.865,
+      "elapsed_human": "4m 10s"
+    },
+    "baseline_s": {
+      "config_option": 3,
+      "path": "experiments/baseline_s.json",
+      "status": "completed",
+      "evaluation_status": "completed",
+      "elapsed_seconds": 480.905,
+      "elapsed_human": "8m 1s"
+    },
+    "baseline_s_rr": {
+      "config_option": 5,
+      "path": "experiments/baseline_s_rr.json",
+      "status": "completed",
+      "evaluation_status": "completed",
+      "elapsed_seconds": 481.753,
+      "elapsed_human": "8m 2s"
+    },
+    "baseline_s_rr_grounded": {
+      "config_option": 9,
+      "path": "experiments/baseline_s_rr_grounded.json",
+      "status": "completed",
+      "evaluation_status": "completed",
+      "elapsed_seconds": 525.881,
+      "elapsed_human": "8m 46s"
+    },
+    "optimized_s": {
+      "config_option": 11,
+      "path": "experiments/optimized_s.json",
+      "status": "completed",
+      "evaluation_status": "completed",
+      "elapsed_seconds": 457.188,
+      "elapsed_human": "7m 37s"
+    },
+    "optimized_s_rr": {
+      "config_option": 13,
+      "path": "experiments/optimized_s_rr.json",
+      "status": "completed",
+      "evaluation_status": "completed",
+      "elapsed_seconds": 436.581,
+      "elapsed_human": "7m 17s"
+    },
+    "optimized_s_rr_grounded": {
+      "config_option": 17,
+      "path": "experiments/optimized_s_rr_grounded.json",
+      "status": "completed",
+      "evaluation_status": "completed",
+      "elapsed_seconds": 479.793,
+      "elapsed_human": "8m 0s"
+    }
+  },
+  "summary_path": "summaries/experiment_summary.json"
+}

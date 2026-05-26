@@ -1,0 +1,7 @@
+dataset,llm,combo,quality_score,overall_mean,faithfulness_mean,correctness_mean,answer_relevance_mean,latency_mean_ms,std_across_configs,std_across_llms,num_llms,num_configs,num_config_rows,rank
+triviaqa,llama3.2:latest,multi-qa-mini__ms-marco-L6,87.89375,84.4125,84.375,82.25,96.375,1068.352075,3.962199318244856,0.0,1,4,8,1
+triviaqa,llama3.2:latest,multi-qa-mini__bge-reranker,86.9625,84.1125,81.625,82.625,95.25,1239.9515875,9.789814541144278,0.0,1,4,8,2
+triviaqa,llama3.2:latest,multi-qa-mini__ms-marco-L12,86.425,82.875,82.5,80.0,95.5,1098.3958499999999,4.1775441350152125,0.0,1,4,8,3
+triviaqa,llama3.2:latest,bge-base__bge-reranker,85.225,80.4625,84.0625,78.3125,95.0625,1778.3567624999998,7.691147508662149,0.0,1,4,8,4
+triviaqa,llama3.2:latest,bge-base__ms-marco-L6,83.65625,78.25,80.875,75.0,98.5,1634.9772375,8.586597023122723,0.0,1,4,8,5
+triviaqa,llama3.2:latest,bge-base__ms-marco-L12,77.215625,68.1375,73.6875,63.625,96.8125,1684.990475,6.637711125408743,0.0,1,4,8,6

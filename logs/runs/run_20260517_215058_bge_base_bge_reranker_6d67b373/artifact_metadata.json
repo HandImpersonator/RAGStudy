@@ -1,0 +1,9 @@
+{
+  "experiment_family": "combo_sweep",
+  "experiment_stage": "step_1_combo_selection",
+  "combo_alias": "bge-base__bge-reranker",
+  "retrieval_model": "BAAI/bge-base-en-v1.5",
+  "reranker_model": "BAAI/bge-reranker-base",
+  "dataset": "triviaqa",
+  "llm_label": "mistral_7b"
+}

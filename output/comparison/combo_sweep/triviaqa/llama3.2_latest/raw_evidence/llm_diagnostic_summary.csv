@@ -1,0 +1,2 @@
+dataset,llm,mean_quality_score,mean_overall,mean_faithfulness,mean_correctness,mean_answer_relevance,mean_latency_ms,std_across_combos,num_combos,top_rank_count,bottom_rank_count,rank
+triviaqa,llama3.2:latest,84.56302083333334,79.70833333333333,81.1875,76.96875,96.25,1417.5039979166668,3.5487767555178027,6,1,1,1

@@ -1,0 +1,26 @@
+{
+  "batch_id": "batch_6a0e7905cc0c819098e97f7d2db54d52",
+  "config_name": "baseline_s",
+  "run_id": "run_20260521_005823_unknown_4818b378",
+  "submitted_at": "2026-05-21T03:16:22",
+  "last_polled_at": null,
+  "batch_status": "validating",
+  "completed_at": null,
+  "num_items": 10,
+  "input_file_id": "file-3rKgYUzTZqzq1J2aQj1cee",
+  "output_file_id": null,
+  "custom_ids": [
+    "run_20260521_005823_unknown_4818b378::baseline_s::0460",
+    "run_20260521_005823_unknown_4818b378::baseline_s::0461",
+    "run_20260521_005823_unknown_4818b378::baseline_s::0462",
+    "run_20260521_005823_unknown_4818b378::baseline_s::0463",
+    "run_20260521_005823_unknown_4818b378::baseline_s::0464",
+    "run_20260521_005823_unknown_4818b378::baseline_s::0465",
+    "run_20260521_005823_unknown_4818b378::baseline_s::0466",
+    "run_20260521_005823_unknown_4818b378::baseline_s::0467",
+    "run_20260521_005823_unknown_4818b378::baseline_s::0468",
+    "run_20260521_005823_unknown_4818b378::baseline_s::0469"
+  ],
+  "items_processed_ok": 0,
+  "items_processed_err": 0
+}
